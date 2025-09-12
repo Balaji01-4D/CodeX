@@ -2,23 +2,8 @@
   "name": "codex",
   "private": true,
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build",
-    "build:client": "turbo build --filter=client...",
-    "build:server": "turbo build --filter=server...",
-    "lint:check": "turbo lint:check",
-    "lint:fix": "turbo lint:fix",
-    "format:check": "prettier --check **/*.{js,mjs,jsx,ts,tsx,json}",
-    "format:fix": "prettier --write **/*.{js,mjs,jsx,ts,tsx,json}",
-    "test:client": "turbo test:e2e",
-    "test:client:ui": "turbo test:e2e:ui",
-    "test:client:debug": "turbo test:e2e:debug",
-    "test:client:report": "turbo test:e2e:report",
-    "test:server": "turbo test:socket",
-    "test:server:remote": "turbo test:socket:remote",
-    "test:server:watch": "turbo test:watch",
-    "clean": "node scripts/clean.js",
-    "prepare": "husky"
+     "build": "pnpm build:server",
+     "start": "pnpm --filter=server start"
   },
   "lint-staged": {
     "**/*.{js,mjs,jsx,ts,tsx,json}": [
