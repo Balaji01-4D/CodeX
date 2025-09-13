@@ -5,13 +5,10 @@
  * - Vercel deployment detection
  * - Header generation
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
  */
 
 const ALLOWED_ORIGINS = [
-  'https://codex.dulapahv.dev',
   'https://codex.vercel.app',
-  'https://dev-codex.dulapahv.dev',
   'http://localhost:3000',
 ] as const;
 

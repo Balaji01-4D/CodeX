@@ -5,7 +5,7 @@
  * - Return to home button
  * - Responsive layout
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * By (https://codex.dev)
  */
 
 'use client';

@@ -5,7 +5,7 @@
  * - Recovery options
  * - Development error details
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * By (https://codex.dev)
  */
 
 'use client';

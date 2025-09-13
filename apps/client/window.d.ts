@@ -4,7 +4,7 @@
  * - Auth window reference
  * - Type definitions
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * By (https://codex.dev)
  */
 
 declare global {

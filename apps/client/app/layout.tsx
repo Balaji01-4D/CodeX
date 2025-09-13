@@ -7,7 +7,7 @@
  * - Toast notifications
  * - Analytics
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * By (https://codex.dev)
  */
 
 import type { Metadata, Viewport } from 'next';
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    creator: '@dulapahv',
+    creator: '@codexteam',
   },
   alternates: {
     canonical: BASE_CLIENT_URL,

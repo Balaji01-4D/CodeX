@@ -6,7 +6,7 @@
  * - Image domains
  * - Turbo config
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * By (https://codex.dev)
  */
 
 import path from 'path';
@@ -42,7 +42,7 @@ const nextConfig: NextConfig = {
 const isCi = process.env.CI === 'true';
 
 export default withSentryConfig(nextConfig, {
-  org: 'dulapahv',
+  org: 'codexteam',
   project: 'codex',
   silent: !process.env.CI, // Only print logs for uploading source maps in CI
   widenClientFileUpload: true, // Upload a larger set of source maps for prettier stack traces (increases build time)

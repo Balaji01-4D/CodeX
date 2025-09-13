@@ -5,8 +5,7 @@
  * - Project description
  * - Preview image with loading state
  * - External links
- *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * By Codex Team
  */
 
 import {
@@ -87,8 +86,8 @@ const AboutDialog = forwardRef<AboutDialogRef, AboutDialogProps>(
             <DialogHeader className="text-foreground text-left">
               <DialogTitle>{SITE_NAME}</DialogTitle>
               <DialogDescription className="pt-2 text-base">
-                This project is part of the course &quot;COMPSCI4025P Level 4
-                Individual Project&quot; at the University of Glasgow.
+                This project is part of the &quot;Techno Summit 2025 Individual
+                Project&quot; at the Sathyabama University.
               </DialogDescription>
             </DialogHeader>
 
@@ -119,14 +118,9 @@ const AboutDialog = forwardRef<AboutDialogRef, AboutDialogProps>(
 
             <div className="text-foreground space-y-2">
               <p className="text-center">
-                Made with 💕 by <span className="font-medium">dulapahv</span>
+                Made by <span className="font-medium">Codex Team</span>
               </p>
-              <nav
-                className="grid grid-cols-4 gap-2"
-                aria-label="External links"
-              >
-                <ExternalLink forceDark={forceDark} />
-              </nav>
+              {/* External links removed as requested */}
             </div>
 
             <DialogFooter>
@@ -182,9 +176,7 @@ const AboutDialog = forwardRef<AboutDialogRef, AboutDialogProps>(
             <p className="text-center">
               Made with 💕 by <span className="font-medium">dulapahv</span>
             </p>
-            <nav className="grid grid-cols-2 gap-2" aria-label="External links">
-              <ExternalLink forceDark={forceDark} />
-            </nav>
+            {/* External links removed as requested */}
           </div>
 
           <DrawerFooter>

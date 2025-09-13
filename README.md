@@ -23,7 +23,7 @@
 
 **✨ Try now at [codex.dulapahv.dev](https://codex.dulapahv.dev/)**
 
-> This project is part of the course "COMPSCI4025P Level 4 Individual Project" at the University of Glasgow.
+> This project is part of the course "TechNo Sumit" at the satyabama university.
 
 For detailed usage instructions and feature documentation, please see the **[User Manual](manual.md)**.
 
